@@ -3,6 +3,7 @@ FROM jupyter/scipy-notebook:cf6258237ff9
 MAINTAINER Jessica B. Hamrick <jhamrick@berkeley.edu>
 
 # Install nbgrader
+RUN pip install --upgrade pip
 RUN pip install nbgrader
 
 # Install notebook config
