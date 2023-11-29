@@ -1,4 +1,4 @@
-FROM andrewosh/binder-base
+FROM jupyter/scipy-notebook:cf6258237ff9
 
 MAINTAINER Jessica B. Hamrick <jhamrick@berkeley.edu>
 
